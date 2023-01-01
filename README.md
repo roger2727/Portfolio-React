@@ -10,7 +10,7 @@ This is my portfolio and it shows off my skills and accomplishments.
 
 # General Information
 
-"I recently built a portfolio using React in order to improve my skills in the framework. The portfolio has an About page, a Projects page, and a Contacts page.
+I built my portfolio using React in order to improve my skills in the framework. The portfolio has an About page, a Projects page, and a Contacts page.
 
 Building the portfolio was a great learning experience for me. I had to use HTML, CSS, and JavaScript to create the user interface and functionality of the website. I also used tools like React Router for handling navigation between pages and a styling library like Material-UI or styled-components for styling the UI.
 
