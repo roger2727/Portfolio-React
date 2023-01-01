@@ -1,0 +1,41 @@
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f2027;
+}
+
+/* navigation links box */
+.nav-links {
+  display: flex;
+  gap: 10rem;
+  padding: 1rem;
+}
+
+.active {
+  color: #e4b200;
+  text-decoration: none;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #e4b200;
+}
+
+@media (max-width: 1000px) {
+  .links {
+    display: none;
+  }
+  .header-box {
+    justify-content: flex-start;
+    display: none;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+  }
+}

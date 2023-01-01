@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #0f2027;
+  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 5rem;
+  flex-grow: 3;
+
+  bottom: 0;
+}
+.social-box-footer {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-icons-footer {
+  width: 30px;
+}
+.social-icons-footer:hover {
+  transform: scale(1.5);
+}
+@media (max-width: 1000px) {
+  .footer {
+    gap: 0;
+  }
+}

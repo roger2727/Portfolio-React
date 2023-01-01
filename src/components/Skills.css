@@ -1,0 +1,41 @@
+.tech-logo {
+  opacity: 0;
+  animation: fadeIn 500ms;
+  animation-fill-mode: forwards;
+  width: 50px;
+  padding-bottom: 5px;
+}
+
+.logo-animation {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  height: 40px;
+  width: 50px;
+}
+
+.tech-title {
+  color: aliceblue;
+  text-align: center;
+}
+
+.tech-logo:hover .title-textbox {
+  visibility: visible;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

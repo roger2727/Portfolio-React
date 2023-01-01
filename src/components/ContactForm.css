@@ -1,0 +1,51 @@
+.group-contact {
+  padding: 30px;
+}
+
+/* contact pic */
+
+.contact-pic {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+/* icons */
+.contact-icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-text {
+  color: white;
+}
+
+.icon-box {
+  display: flex;
+  gap: 1rem;
+}
+.contact {
+  color: white;
+}
+/* contact links */
+.contact-links {
+  color: white;
+  text-decoration: none;
+}
+.contact-links:hover {
+  color: #e4b200;
+}
+.thebox {
+  background-color: #0f2027;
+  width: 50%;
+  background-color: #0f2027;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 2rem;
+}
+@media (max-width: 1000px) {
+  .thebox {
+    width: 90%;
+  }
+}

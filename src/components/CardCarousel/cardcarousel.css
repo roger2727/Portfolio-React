@@ -1,0 +1,65 @@
+.cardbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  /* other styles */
+  transition: opacity 0.5s ease-in;
+}
+.slide-out {
+  opacity: 0;
+}
+
+.slide-in {
+  opacity: 1;
+}
+.data {
+  color: #0f2027;
+}
+
+.project-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+}
+.project-heading {
+  color: #e4b200;
+}
+.project-num {
+  color: #e4b200;
+}
+.carousel-button {
+  /* other styles */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* add a text shadow to the button label */
+  /* base styles for the button */
+  border: solid 1px #e4b200; /* remove the default border */
+  outline: none; /* remove the default outline */
+  cursor: pointer; /* change the cursor to a pointer when the button is hovered */
+  padding: 10px 20px; /* add some padding to the button */
+  font-size: 16px; /* set the font size for the button label */
+  background-color: #0f2027; /* set the background color for the button */
+  color: #fff; /* set the text color for the button label */
+  border-radius: 4px; /* add some rounding to the corners of the button */
+}
+
+.carousel-button:hover {
+  /* styles for the button when it is hovered */
+  background-color: #e4b200; /* change the background color on hover */
+  color: black; /* change the text color on hover */
+}
+.carousel-button {
+  /* other styles */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* add a transition effect to the button */
+}
+@media (max-width: 1000px) {
+  .cardbox {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0rem;
+  }
+  .carousel-button {
+    width: 90%;
+  }
+}

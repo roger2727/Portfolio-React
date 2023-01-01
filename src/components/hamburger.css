@@ -1,0 +1,52 @@
+@media (max-width: 1000px) {
+  /* apply these styles only when the window width is 640 pixels or less */
+  .hamburger-button {
+    margin-bottom: 10px;
+    display: block;
+    border: none;
+    background-color: #0f2027;
+    color: grey;
+    border-radius: 5px;
+    width: 50px;
+    margin: 20px;
+    font-size: 35px;
+  }
+  .hamburger-button:hover {
+    background-color: #e4b200;
+    color: #0f2027;
+  }
+  .close {
+    color: #e4b200;
+  }
+  .close:hover {
+    background-color: #e4b200;
+    color: #0f2027;
+  }
+  .ham-links {
+    background-color: #0f2027;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 5px;
+  }
+  .ham-links:hover {
+    color: #e4b200;
+  }
+  .nav-menu {
+    display: none; /* hide the nav menu */
+  }
+}
+
+@media (min-width: 1000px) {
+  /* apply these styles only when the window width is greater than 1000 pixels */
+  .hamburger-button {
+    display: none; /* hide the hamburger button */
+  }
+  .nav-menu {
+    display: block; /* show the nav menu */
+  }
+  .ham-links {
+    display: none;
+  }
+}

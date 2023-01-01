@@ -1,0 +1,73 @@
+.hero {
+  margin: 3rem;
+}
+
+/* main heading to home page */
+.main-heading {
+  color: #e4b200;
+  padding-top: 15px;
+}
+.skills-heading {
+  color: #e4b200;
+}
+/* profile pic */
+/****** image component 1/4 ***/
+.photo {
+  box-shadow: rgb(255, 255, 255) 0px 5px 30px;
+  width: 100%;
+  /* height: 100%; */
+  height: 590px;
+  object-fit: cover;
+}
+/* text box that surrounds text */
+.text-box {
+  display: flex;
+  background-color: #0f2027;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+}
+
+.text {
+  color: #d3d3d3;
+  font-size: 17px;
+}
+
+.resume {
+  color: #e4b200;
+  text-decoration: none;
+}
+/* when hover over link it grows */
+.resume:hover {
+  direction: unset;
+}
+.about-article {
+  padding: 2rem 4rem 2rem 4rem;
+}
+hr {
+  height: 5px; /* make the hr element 5 pixels tall */
+  border: none; /* remove the default border */
+  background-color: grey; /* set the background color to black */
+}
+/* @media (min-width: 1450px) {
+  .text-box {
+    flex-direction: column;
+  }
+} */
+@media (max-width: 1033px) {
+  .text-box {
+    flex-direction: column;
+  }
+  .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  .hero {
+    margin: 1rem;
+  }
+  .about-article {
+    padding: 0 1rem 0 1rem;
+  }
+}
