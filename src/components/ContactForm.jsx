@@ -7,11 +7,7 @@ import gps from "../images/gps.png";
 const ContactForm = () => {
   return (
     <div className="thebox">
-      <img
-        className="contact-pic"
-        src={contact}
-        alt="photo of mitchell roger"
-      />
+      <img className="contact-pic" src={contact} alt="" />
       <div className="group-contact">
         <h1 className="heading">CONTACT INFO</h1>
         <hr />
@@ -24,19 +20,20 @@ const ContactForm = () => {
         </p>
         <hr />
         <figure className="icon-box">
-          <img className="contact-icons" src={email} alt="email icon" />
+          <img className="contact-icons" src={email} alt="" />
           <span className="contact">roger.mitch27@gmail.com</span>
         </figure>
         <figure className="icon-box">
-          <img className="contact-icons" src={phone} alt="phone icon" />
+          <img className="contact-icons" src={phone} alt="" />
           <span className="contact">0406801622</span>
         </figure>
         <figure className="icon-box">
-          <img className="contact-icons" src={gps} alt="gps icon" />
+          <img className="contact-icons" src={gps} alt="" />
           <a
             className="contact-links"
             href="https://www.google.com/maps/place/Lake+Macquarie/@-33.0694853,151.2944166,11z/data=!3m1!4b1!4m5!3m4!1s0x6b7323aefe72be6b:0xccb5fc49af980a25!8m2!3d-33.0857007!4d151.5720067"
             target="_blank"
+            rel="noreferrer noopener"
             title="Location"
           >
             Lake Macquarie, NSW

@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <main className="hero">
         <section className="text-box">
-          <img className="photo" src={photo} alt="photo of mitchell roger" />
+          <img className="photo" src={photo} alt="" />
 
           <article className="about-article">
             <h1 className="main-heading">ABOUT ME</h1>

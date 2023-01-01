@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProjectsCard from "../ProjectsCard";
-import "./cardcarousel.css";
+import "./CardCarousel.css";
 import banner from "../../images/banner.png";
 import starwars from "../../images/starwars.png";
 import sauce from "../../images/hot.png";
