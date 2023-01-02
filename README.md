@@ -1,6 +1,7 @@
 # My Portfolio
 
-This is my portfolio and it shows off my skills and accomplishments.
+This portfolio showcases my skills and accomplishments. Click here to visit the website.
+[click here](https://portfolio-react-4zax.vercel.app/)
 
 ## Table of Contents
 
@@ -25,6 +26,7 @@ Through this project, I gained a deeper understanding of how React works and how
 - React Router: A library for handling routing and navigation in a React app.
 - Git: A version control system for tracking changes to your code.
 - npm: A package manager for installing and managing dependencies.
+- vercel: a cloud platform that makes it easy to build and deploy static sites, Serverless Functions, and APIs, with features like global CDN, automatic HTTPS, Git integration, and customizable build pipelines.
 
 # Features
 
