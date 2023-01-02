@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ProjectsCard from "../ProjectsCard";
+import ProjectsCard from "./ProjectsCard";
 import "./CardCarousel.css";
-import banner from "../../images/banner.png";
-import starwars from "../../images/starwars.png";
-import sauce from "../../images/hot.png";
+import banner from "../images/banner.png";
+import starwars from "../images/starwars.png";
+import sauce from "../images/hot.png";
 
 const Carousel = () => {
   // define a functional component called Carousel that takes no arguments

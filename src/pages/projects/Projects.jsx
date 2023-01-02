@@ -1,5 +1,5 @@
 import React from "react";
-import CardCarousel from "../../components/CardCarousel/CardCarousel";
+import CardCarousel from "../../components/CardCarousel";
 import "./projects.css";
 const Projects = () => {
   return (
