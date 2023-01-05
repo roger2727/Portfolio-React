@@ -59,7 +59,7 @@ const Carousel = () => {
       image: sauce,
       description:
         "King of Wings Challenge is a thrilling and spicy new game built with React that will test your tolerance for heat! In this game, players will collect various types of hot sauce and assign them a number from 1 to 10, with 10 being the spiciest. Once the game begins, players will be presented with a randomly selected hot sauce and a random challenge, such as taking a drink or adding more sauce to a chicken wing. The goal is to survive 10 rounds and emerge as the ultimate hot sauce champion! With the ability to play with as many people as you'd like, King of Wings Challenge is the perfect party game for spice lovers everywhere.",
-      href: "https://github.com/roger2727/T2A2---API-Webserver-Project",
+      href: "https://github.com/roger2727/hot-wings-react",
       skillsTitle: "Skills gained",
       skillsList: (
         <ul>
